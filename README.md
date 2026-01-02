@@ -17,7 +17,7 @@ A natural-language driven AI assistant that turns plain-English requests into fu
 
 ---
 
-## Twelve Built-in Workflows  :contentReference[oaicite:0]{index=0}
+## Twelve Built-in Workflows  :
 
 1. **Find Common Free Slot & Schedule Meeting** – zero e-mail ping-pong; timezone math handled for you.  
 2. **Onboarding / Off-boarding** – consistent Day-1 experience and no orphan accounts.  
