@@ -1,0 +1,262 @@
+{
+    "building_analytics": {
+      "building_id": "BLDG-001",
+      "building_name": "Corporate Tower East",
+      "data_collection_period": {
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-14"
+      },
+      "visitor_data": [
+        {
+          "date": "2025-06-01",
+          "hour": 9,
+          "visitor_count": 45,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-01",
+          "hour": 12,
+          "visitor_count": 23,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-01",
+          "hour": 14,
+          "visitor_count": 31,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-02",
+          "hour": 9,
+          "visitor_count": 52,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-02",
+          "hour": 11,
+          "visitor_count": 18,
+          "entry_point": "side_entrance"
+        },
+        {
+          "date": "2025-06-03",
+          "hour": 8,
+          "visitor_count": 67,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-03",
+          "hour": 13,
+          "visitor_count": 29,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-04",
+          "hour": 10,
+          "visitor_count": 41,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-05",
+          "hour": 9,
+          "visitor_count": 38,
+          "entry_point": "main_lobby"
+        },
+        {
+          "date": "2025-06-05",
+          "hour": 15,
+          "visitor_count": 22,
+          "entry_point": "side_entrance"
+        }
+      ],
+      "delivery_data": [
+        {
+          "date": "2025-06-01",
+          "time": "09:30",
+          "delivery_count": 3,
+          "delivery_type": "packages",
+          "location": "loading_dock"
+        },
+        {
+          "date": "2025-06-01",
+          "time": "14:15",
+          "delivery_count": 1,
+          "delivery_type": "food_service",
+          "location": "service_entrance"
+        },
+        {
+          "date": "2025-06-02",
+          "time": "08:45",
+          "delivery_count": 5,
+          "delivery_type": "packages",
+          "location": "loading_dock"
+        },
+        {
+          "date": "2025-06-02",
+          "time": "12:30",
+          "delivery_count": 2,
+          "delivery_type": "office_supplies",
+          "location": "loading_dock"
+        },
+        {
+          "date": "2025-06-03",
+          "time": "10:20",
+          "delivery_count": 4,
+          "delivery_type": "packages",
+          "location": "loading_dock"
+        },
+        {
+          "date": "2025-06-03",
+          "time": "16:45",
+          "delivery_count": 1,
+          "delivery_type": "maintenance",
+          "location": "service_entrance"
+        },
+        {
+          "date": "2025-06-04",
+          "time": "09:15",
+          "delivery_count": 2,
+          "delivery_type": "packages",
+          "location": "loading_dock"
+        },
+        {
+          "date": "2025-06-04",
+          "time": "13:00",
+          "delivery_count": 3,
+          "delivery_type": "food_service",
+          "location": "service_entrance"
+        },
+        {
+          "date": "2025-06-05",
+          "time": "11:30",
+          "delivery_count": 6,
+          "delivery_type": "packages",
+          "location": "loading_dock"
+        },
+        {
+          "date": "2025-06-05",
+          "time": "15:20",
+          "delivery_count": 1,
+          "delivery_type": "office_supplies",
+          "location": "loading_dock"
+        }
+      ],
+      "occupancy_sensor_data": [
+        {
+          "sensor_id": "OCC-FL1-001",
+          "floor": 1,
+          "zone": "lobby",
+          "timestamp": "2025-06-01T09:00:00Z",
+          "occupancy_count": 15,
+          "capacity": 50,
+          "occupancy_percentage": 30.0
+        },
+        {
+          "sensor_id": "OCC-FL2-001",
+          "floor": 2,
+          "zone": "open_workspace",
+          "timestamp": "2025-06-01T09:00:00Z",
+          "occupancy_count": 85,
+          "capacity": 120,
+          "occupancy_percentage": 70.8
+        },
+        {
+          "sensor_id": "OCC-FL3-001",
+          "floor": 3,
+          "zone": "conference_rooms",
+          "timestamp": "2025-06-01T09:00:00Z",
+          "occupancy_count": 32,
+          "capacity": 60,
+          "occupancy_percentage": 53.3
+        },
+        {
+          "sensor_id": "OCC-FL1-001",
+          "floor": 1,
+          "zone": "lobby",
+          "timestamp": "2025-06-01T12:00:00Z",
+          "occupancy_count": 8,
+          "capacity": 50,
+          "occupancy_percentage": 16.0
+        },
+        {
+          "sensor_id": "OCC-FL2-001",
+          "floor": 2,
+          "zone": "open_workspace",
+          "timestamp": "2025-06-01T12:00:00Z",
+          "occupancy_count": 95,
+          "capacity": 120,
+          "occupancy_percentage": 79.2
+        },
+        {
+          "sensor_id": "OCC-FL3-001",
+          "floor": 3,
+          "zone": "conference_rooms",
+          "timestamp": "2025-06-01T12:00:00Z",
+          "occupancy_count": 45,
+          "capacity": 60,
+          "occupancy_percentage": 75.0
+        },
+        {
+          "sensor_id": "OCC-FL4-001",
+          "floor": 4,
+          "zone": "executive_offices",
+          "timestamp": "2025-06-01T14:00:00Z",
+          "occupancy_count": 12,
+          "capacity": 25,
+          "occupancy_percentage": 48.0
+        },
+        {
+          "sensor_id": "OCC-FL2-001",
+          "floor": 2,
+          "zone": "open_workspace",
+          "timestamp": "2025-06-02T10:00:00Z",
+          "occupancy_count": 110,
+          "capacity": 120,
+          "occupancy_percentage": 91.7
+        },
+        {
+          "sensor_id": "OCC-FL3-001",
+          "floor": 3,
+          "zone": "conference_rooms",
+          "timestamp": "2025-06-02T10:00:00Z",
+          "occupancy_count": 38,
+          "capacity": 60,
+          "occupancy_percentage": 63.3
+        },
+        {
+          "sensor_id": "OCC-FL1-001",
+          "floor": 1,
+          "zone": "lobby",
+          "timestamp": "2025-06-03T08:30:00Z",
+          "occupancy_count": 22,
+          "capacity": 50,
+          "occupancy_percentage": 44.0
+        },
+        {
+          "sensor_id": "OCC-FL2-001",
+          "floor": 2,
+          "zone": "open_workspace",
+          "timestamp": "2025-06-03T08:30:00Z",
+          "occupancy_count": 78,
+          "capacity": 120,
+          "occupancy_percentage": 65.0
+        },
+        {
+          "sensor_id": "OCC-FL4-001",
+          "floor": 4,
+          "zone": "executive_offices",
+          "timestamp": "2025-06-03T13:30:00Z",
+          "occupancy_count": 18,
+          "capacity": 25,
+          "occupancy_percentage": 72.0
+        }
+      ],
+      "summary_metrics": {
+        "total_visitors_period": 366,
+        "total_deliveries_period": 28,
+        "average_occupancy_percentage": 58.7,
+        "peak_occupancy_time": "10:00-11:00",
+        "peak_visitor_day": "2025-06-03",
+        "busiest_delivery_location": "loading_dock"
+      }
+    }
+  }
